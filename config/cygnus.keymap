@@ -36,10 +36,10 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&kp EXCL      &kp AT    &kp HASH        &kp DLLR        &kp PRCNT         &kp CARET          &kp AMPS         &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp KP_MINUS  &kp PLUS  &kp KP_EQUAL    &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp TILDE        &kp BACKSLASH         &kp GRAVE
-&trans        &kp PIPE  &kp UNDERSCORE  &trans          &trans            &trans             &trans           &trans           &trans                &trans
-                        &kp TAB         &trans          &kp ENTER         &kp RET            &trans           &kp RALT
+&kp GRAVE  &kp LT    &kp GT    &kp PIPE   &kp BSLH  &kp EXCL   &kp AT     &kp HASH  &kp DLLR   &kp PRCNT
+&kp DQT    &kp LBRC  &kp LPAR  &kp RPAR   &kp RBRC  &kp COLON  &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER
+&kp SQT    &kp LBKT  &kp RBKT  &kp TILDE  &kp TAB   &kp CARET  &kp AMPS   &kp STAR  &kp QMARK  &kp DEL
+                     &trans    &trans     &trans    &trans     &trans     &trans
             >;
         };
 
